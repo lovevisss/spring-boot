@@ -1,11 +1,12 @@
 package com.zufedfc.Dao;
 
 import com.zufedfc.Entity.Student;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
+@Repository
 public class StudentDao {
 // use map to store student info
     private static Map<Integer, Student> students;
